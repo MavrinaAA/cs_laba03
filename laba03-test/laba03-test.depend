@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1619445439 source:c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\histogram.cpp
+	"histogram.h"
+
+1619443081 c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\histogram.h
+	<vector>
+
+1619444982 source:c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\laba03-test\test.cpp
+	"../histogram.h"
+	<cassert>
+
