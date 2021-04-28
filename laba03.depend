@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1619549041 source:c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\main.cpp
+1619549862 source:c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\main.cpp
 	<iostream>
 	<vector>
 	"histogram.h"
@@ -15,6 +15,6 @@
 	<vector>
 	<iostream>
 
-1619549848 source:c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\svg.cpp
+1619624563 source:c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\svg.cpp
 	"svg.h"
 
