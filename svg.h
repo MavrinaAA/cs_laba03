@@ -15,4 +15,4 @@ void
 svg_rect(double x, double y, double width, double height, string stroke= "red" , string fill= "#ffeeee" );
 
 void
-show_histogram_svg(const vector<size_t>& bins);
+show_histogram_svg(const vector<size_t>& bins, size_t& bin_height);

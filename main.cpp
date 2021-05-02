@@ -89,7 +89,8 @@ main() {
     const auto bins=make_histogram(numbers,bin_count);
 
     // Вывод данных
-    show_histogram_svg(bins);
+    size_t bin_height;
+    show_histogram_svg(bins,bin_height);
 
     return 0;
 }
