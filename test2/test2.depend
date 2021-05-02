@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1619966169 source:c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\test2\test2.cpp
+	"../svg.h"
+	<cassert>
+
+1619964006 c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\svg.h
+	<vector>
+	<iostream>
+
+1619964775 source:c:\users\Алена\onedrive\Рабочий стол\ПРОГА задачи С++\laba03\laba03\svg.cpp
+	"svg.h"
+
