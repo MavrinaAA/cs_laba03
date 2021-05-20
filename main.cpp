@@ -4,11 +4,6 @@
 #include "svg.h"
 using namespace std;
 
-struct Input {
-    vector<double> numbers;
-    size_t bin_count;
-};
-
 vector<double>
 input_numbers(istream& in, size_t count) {
 
@@ -42,7 +37,7 @@ int
 main() {
     Input input ;
     input=read_input(cin);
-    const auto bins=make_histogram(input.numbers,input.bin_count);
+    const auto bins=make_histogram(input);
 
     // Вывод данных
     size_t bin_height;
