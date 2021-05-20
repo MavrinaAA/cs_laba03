@@ -2,6 +2,7 @@
 #include <vector>
 #include "histogram.h"
 #include "svg.h"
+#include <curl/curl.h>
 using namespace std;
 
 vector<double>
@@ -44,7 +45,8 @@ read_input(istream& in,bool prompt)
 
 int
 main() {
-    const auto input=read_input(cin,false);
+    curl_global_init(CURL_GLOBAL_ALL);
+    const auto input=read_input(cin,true);
     const auto bins=make_histogram(input);
 
     // Вывод данных
