@@ -5,6 +5,7 @@
 #include <curl/curl.h>
 #include <sstream>
 #include <string>
+#include <windows.h>
 using namespace std;
 
 vector<double>
@@ -132,6 +133,8 @@ main(int argc, char* argv[]) {
     // Вывод данных
     size_t bin_height;
     show_histogram_svg(bins,bin_height);
+
+
 
     return 0;
 }
